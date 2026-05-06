@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Child Health Monitor</string>
+    
+    <!-- Firebase Google Sign-In Web Client ID -->
+    <!-- This is automatically generated from google-services.json by the Google Services plugin -->
+    <!-- To enable Google Sign-In:
+         1. Go to Firebase Console > Authentication > Sign-in method
+         2. Enable Google Sign-In
+         3. Go to Project Settings > Your apps > Download google-services.json
+         4. Replace app/google-services.json with the new file
+         5. Add your SHA-1 fingerprint to Firebase (see GOOGLE_SIGNIN_SETUP.md)
+         6. Rebuild the app
+    -->
+    <string name="default_web_client_id" translatable="false">680374870007-YOUR_CLIENT_ID.apps.googleusercontent.com</string>
+    
+    <!-- Navigation -->
+    <string name="nav_control">Dashboard</string>
+    <string name="nav_scan">Scan</string>
+    <string name="nav_modes">Monitor</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Dashboard Screen -->
+    <string name="health_dashboard">Health Dashboard</string>
+    <string name="connection_status">Connection Status</string>
+    <string name="connect_device">Connect to Device</string>
+    <string name="disconnect_device">Disconnect</string>
+    <string name="health_status">Health Status</string>
+    <string name="heart_rate">Heart Rate</string>
+    <string name="blood_oxygen">Blood Oxygen</string>
+    <string name="body_temperature">Body Temperature</string>
+    
+    <!-- Scan Screen -->
+    <string name="scan_title">Find Health Monitor</string>
+    <string name="scan_button">Start Scan</string>
+    <string name="scanning">Scanning…</string>
+    <string name="no_devices_found">No devices found</string>
+    <string name="scan_complete">Scan complete</string>
+    <string name="device_name">ChildHealthWearable</string>
+    
+    <!-- Health Monitoring -->
+    <string name="monitoring_title">Real-time Monitoring</string>
+    <string name="vital_signs">Vital Signs</string>
+    <string name="health_history">Health History</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Health Thresholds</string>
+    <string name="threshold_settings">Configure alert thresholds for child safety</string>
+    <string name="heart_rate_threshold">Heart Rate Threshold</string>
+    <string name="spo2_threshold">Blood Oxygen Threshold</string>
+    <string name="temperature_threshold">Temperature Threshold</string>
+    <string name="save_button">Save Settings</string>
+    
+    <!-- Safety & Alerts -->
+    <string name="health_alert">Health Alert</string>
+    <string name="critical_condition">Critical condition detected</string>
+    <string name="warning_condition">Warning: Vital signs need attention</string>
+    <string name="connection_lost">Connection lost</string>
+    <string name="reconnecting">Reconnecting…</string>
+    
+    <!-- Status -->
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="connecting">Connecting…</string>
+    
+    <!-- Errors -->
+    <string name="error_bluetooth_not_supported">Bluetooth is not supported on this device</string>
+    <string name="error_bluetooth_disabled">Bluetooth is disabled</string>
+    <string name="error_permissions_required">Permissions are required for the app to function</string>
+    <string name="error_connection_failed">Connection failed</string>
+    <string name="error_service_not_found">Service not found on device</string>
+</resources>

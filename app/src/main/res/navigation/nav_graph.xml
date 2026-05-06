@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.sensorycontrol.fragments.ModernDashboardFragment"
+        android:label="Dashboard" />
+    
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.sensorycontrol.fragments.HistoryFragment"
+        android:label="History" />
+
+    <fragment
+        android:id="@+id/monitoringFragment"
+        android:name="com.example.sensorycontrol.fragments.MonitoringFragment"
+        android:label="Monitor" />
+
+    <fragment
+        android:id="@+id/scanFragment"
+        android:name="com.example.sensorycontrol.fragments.ScanFragment"
+        android:label="Scan Devices">
+        <action
+            android:id="@+id/action_scanFragment_to_monitoringFragment"
+            app:destination="@id/monitoringFragment"
+            app:popUpTo="@id/monitoringFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.sensorycontrol.fragments.SettingsFragment"
+        android:label="Settings" />
+
+</navigation>
